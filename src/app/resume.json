@@ -1,0 +1,102 @@
+{
+	"Folio": {
+		"Jobs": {
+			"APG & Co": {
+				"CompanyName": "APG & Co.",
+				"Role": "Junior Web Developer",
+				"Functions": [],
+				"Learnings": [],
+				"Highlights": [],
+				"TimePeriod": "Feb 2016 - Present"
+			},
+			"Apple Inc.": {
+				"CompanyName": "Apple Inc.",
+				"Role": "Specialist",
+				"Functions": [],
+				"Learnings": [],
+				"Highlights": [],
+				"TimePeriod": "Dec 2010 - Feb 2016"
+			}
+		},
+
+		"Projects": {
+			"Recipe Box": {
+				"Name": "Recipe Box",
+				"Description": "",
+				"Learnings": [],
+				"TechUsed": [],
+				"DateCreated": ""
+			},
+			"Markdown Previewer": {
+				"Name": "Markdown Previewer",
+				"Description": "",
+				"Learnings": [],
+				"TechUsed": [],
+				"DateCreated": ""
+			},
+			"Bar Chart": {
+				"Name": "Bar Chart",
+				"Description": "",
+				"Learnings": [],
+				"TechUsed": [],
+				"DateCreated": ""
+			},
+			"File Metadata Microservice": {
+				"Name": "File Metadata Microservice",
+				"Description": "",
+				"Learnings": [],
+				"TechUsed": [],
+				"DateCreated": ""
+			},
+			"Image Search Microservice": {
+				"Name": "Image Search Microservice",
+				"Description": "",
+				"Learnings": [],
+				"TechUsed": [],
+				"DateCreated": ""
+			},
+			"Shrink Link": {
+				"Name": "Shrink Link",
+				"Description": "",
+				"Learnings": [],
+				"TechUsed": [],
+				"DateCreated": ""
+			},
+			"Page Header Microservice": {
+				"Name": "Page Header Microservice",
+				"Description": "",
+				"Learnings": [],
+				"TechUsed": [],
+				"DateCreated": ""
+			},
+			"Timestamp": {
+				"Name": "Timestamp",
+				"Description": "",
+				"Learnings": [],
+				"TechUsed": [],
+				"DateCreated": ""
+			},
+			"Wiki Viewer": {
+				"Name": "Wiki Viewer",
+				"Description": "",
+				"Learnings": [],
+				"TechUsed": [],
+				"DateCreated": ""
+			},
+			"Twitch.tv Viewer": {
+				"Name": "Twitch.tv Viewer",
+				"Description": "",
+				"Learnings": [],
+				"TechUsed": [],
+				"DateCreated": ""
+			},
+			"Handsy": {
+				"Name": "Handsy",
+				"Description": "",
+				"Learnings": [],
+				"TechUsed": [],
+				"DateCreated": ""
+			},
+		}
+	}
+}
