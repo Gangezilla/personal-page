@@ -1,5 +1,9 @@
-// IMPORTS
-@import "_lib/bourbon/bourbon";
-@import "_lib/neat/neat";
+// Coding standards derived from http://codeguide.co/#css-declaration-order
+// Positioning
+// Box model
+// Typographic
+// Visual
 
-@import "_rest/_styles.scss";
+.bottom-content {
+	overflow: hidden
+}
