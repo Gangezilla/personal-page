@@ -12,10 +12,9 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-  	expandCard: () => {
-  		dispatch(expandCard())
+  	expandCard: (event) => {
+  		dispatch(expandCard(event))
   	}
-
   	}
 }
 
