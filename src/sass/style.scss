@@ -10,14 +10,18 @@ body {
 }
 
 h1 {
-	font-family: 'Ovo', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
-p, div, li, h2 {
+p, div, li, h2, a {
 	margin-top: 0;
-	font-family: 'Muli', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
+a:hover {
+	transition: 0.2s;
+	color: #FB6754;
+}
 
 .content-container {
 	@media (max-width: 425px) {
@@ -46,6 +50,10 @@ p, div, li, h2 {
 		text-decoration: none;
 		text-align: center;
 	}
+
+	a:hover {
+		color: #FB6754;
+	}
 }
 
 //top level header
@@ -63,11 +71,12 @@ p, div, li, h2 {
 	}
 
 	img {
-		border-radius: 50%;
+		width: 150px;
+		height: 150px;
 	}
 
 	h1 {
-		font-size: 40px;
+		font-size: 45px;
 		color: #FB6754;
 	}
 
@@ -77,6 +86,7 @@ p, div, li, h2 {
 		color: white;
 		text-decoration: none;
 	}
+
 }
 
 //header/blurb beneath main header
@@ -94,6 +104,10 @@ p, div, li, h2 {
 	}
 
 	img {
+		align-self: center;
+		width: 350px;
+		height: auto;
+		border-radius: 5%;
 		@media (max-width: 425px) {
 			margin-top: 30px;
 		}
@@ -122,6 +136,12 @@ p, div, li, h2 {
 		text-decoration: none;
 		color: white;
 		border: 2px white solid;
+		transition: 0.2s;
+
+		&:hover {
+			background-color: white;
+			color: #22BBB5;
+		}
 
 	}
 }
@@ -194,7 +214,7 @@ p, div, li, h2 {
 
 	.top-title, .top-subtitle {
 		padding-bottom: 5px;
-		font-family: 'Ovo', serif;
+		font-family: 'Open Sans', sans-serif;
 		border-bottom: 1px solid black;
 	}
 
@@ -205,7 +225,11 @@ p, div, li, h2 {
 		border-right: 2px solid #183F63;
 		background: #183F63;
 		background: linear-gradient(to right, #183F63 7%, #ffffff 7%, #ffffff 100%);
-		transition: 0.4s;
+		transition: 0.2s;
+
+		&:hover {
+
+		}
 
 		&.active {
 			border-bottom: 0;
@@ -213,8 +237,7 @@ p, div, li, h2 {
 			border-left: 2px solid #183F63;
 			background-color: #183F63;
 			background: #183F63;
-			background: linear-gradient(to right,#fff 6.5%, #183F63 6.5%, #183F63 100%);
-			transition: 0.5s;
+			transition: 0.2s;
 			color: #FB6754;
 		}
 	}
@@ -240,6 +263,24 @@ p, div, li, h2 {
 	background-color: #22BBB5;
 
 	img {
-		border-radius: 50%;
+		width: 150px;
+		height: 150px;
+	}
+}
+
+//STATES
+.is-hidden {
+	display: none;
+}
+
+.is-hidden-mobile {
+	@media (min-width: 425px) {
+		display: none;
+	}
+}
+
+.is-hidden-desktop {
+	@media (max-width: 425px) {
+		display: none;
 	}
 }
